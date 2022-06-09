@@ -1,13 +1,16 @@
-var hora = 11;
+var hora = 10;
 
 if (hora < 12) {
     console.log("Bom dia");
 
-}else if(hora >= 12 && hora <= 18)
+}else if(hora == 12 || hora == 18)
 {
-    console.log("Boa tarde");
+    console.log("Você está na hora do rush");
 
+}else if(hora > 12 && hora < 18){
+
+    console.log("Boa tarde");
 }else{
 
-    console.log("Boa noite");
+    console.log("boa noite");
 }
