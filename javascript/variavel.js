@@ -1,28 +1,27 @@
 // Variáveis (1/2)
 
-// var nome = "Sergio Moraes"
-// var idade = 90;
+var nome = "Sergio Moraes"
+var idade = 90;
 
-// alert(nome);
-
-
-// var x = 10;
-// var y = 15;
-// var total = x + y;
-
-// alert(total);
+alert(nome);
 
 
-// var nome = "Sergio"; 
-// var sobrenome = "Moraes";
-// var nomeCompleto = nome+" "+sobrenome;
+var x = 10;
+var y = 15;
+var total = x + y;
 
-// alert(nomeCompleto);
+alert(total);
+
+
+var nome = "Sergio"; 
+var sobrenome = "Moraes";
+var nomeCompleto = nome+" "+sobrenome;
+
+alert(nomeCompleto);
 
 // Variáveis (2/2)
 
 // Variavel global
-
 var nome = "Sergio";
 
 if (nome == "Sergio") {
@@ -41,7 +40,6 @@ if (nome == "Sergio") {
 console.log(idade);
 
 // Variavel de valor constante
-
 const nome = "Sergio";
 nome = "Adriano";
 console.log(nome);
