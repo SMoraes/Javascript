@@ -7,3 +7,4 @@ window.alert("Mensagem de exemplo");
 
 // Para o programador
 console.log("A mensagem que eu inserir aqui, aparecerá no console.");
+
