@@ -1,5 +1,5 @@
 function azul(){
-    limpar();
+        limpar();
      document.getElementById("titulo").classList.add('azul');
     }
     
