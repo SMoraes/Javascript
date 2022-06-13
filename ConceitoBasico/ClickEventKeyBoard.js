@@ -5,3 +5,5 @@ function digitou(e){
        console.log(texto);
    }
 }
+
+
